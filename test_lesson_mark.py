@@ -58,3 +58,4 @@ class TestBookPage():
 @pytest.mark.smoke
 def test_guest_can_open_gadget_catalogue(browser):
     assert True
+    # commands for runs test pytest -s -v -m "smoke and not beta_users"
